@@ -26,7 +26,7 @@ export default {
     },
     computed: {
         getImageURL(){
-            return new URL('../assets/Buttons/button_xbox_digital_' + this.keyLabel.toLowerCase() + '_5.svg', import.meta.url).href
+            return new URL('/Buttons/button_xbox_digital_' + this.keyLabel.toLowerCase() + '_5.svg', import.meta.url).href
         }
     }
 }
