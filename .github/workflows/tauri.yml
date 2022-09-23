@@ -50,4 +50,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Bundle
-          path: src-tauri/target/release/bundle/**/*
+          path: |
+            src-tauri/target/release/bundle/**/*.deb
+            src-tauri/target/release/bundle/**/*.AppImage
